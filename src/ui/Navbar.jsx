@@ -5,7 +5,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="relative flex justify-between p-5 font-inter text-white">
-      <img src="./logo.svg" alt="logoipsum" className="w-20" />
+      <img src="/logo.svg" alt="logoipsum" className="w-20" />
       <div className="relative">
         <button>
           <HiMiniBars4
