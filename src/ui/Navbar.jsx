@@ -37,6 +37,7 @@ const NavList = styled.ul`
   gap: 2rem;
   padding: 1rem 2rem;
   border-radius: 2rem;
+  color: #fff;
 
   li:nth-child(2) {
     margin-left: auto;
@@ -49,10 +50,19 @@ const NavList = styled.ul`
     background-color: transparent;
     padding: 0.5rem 2rem;
     border-radius: 1.5rem;
-    border: 2px solid #000;
+    border: 2px solid #fff;
+
+    &:hover {
+      background-color: #a46edb;
+      color: #000;
+    }
   }
 `;
 
-const Li = styled.li``;
+const Li = styled.li`
+  &:hover {
+    cursor: pointer;
+  }
+`;
 
 export default Navbar;
