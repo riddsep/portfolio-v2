@@ -8,7 +8,7 @@ export default {
         inter: ["Inter", "sans-serif"],
       },
       backgroundImage: {
-        gradient: "linear-gradient(to bottom, #000000, #200D42, #4F21A1)",
+        gradient: 'url("Grid.svg")',
       },
     },
   },
