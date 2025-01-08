@@ -1,4 +1,4 @@
-import { HiOutlineArrowUpRight } from "react-icons/hi2";
+import { HiMiniArrowDown, HiMiniArrowRight } from "react-icons/hi2";
 import Navbar from "./Navbar";
 
 function Hero() {
@@ -14,10 +14,10 @@ function Hero() {
           that bring ideas to life. Let&apos;s collaborate to create something
           amazing.
         </p>
-        <div className="flex justify-center">
-          <button className="mt-5 flex w-fit items-center gap-2 rounded-3xl bg-white px-5 py-1 text-black">
-            Let&apos;s Talk
-            <HiOutlineArrowUpRight />
+        <div className="mt-5 flex items-center justify-center">
+          <button className="flex w-fit items-center gap-2 rounded-3xl border border-black bg-black px-5 py-2">
+            Download CV
+            <HiMiniArrowDown />
           </button>
         </div>
       </div>
