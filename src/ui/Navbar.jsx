@@ -24,6 +24,9 @@ function Navbar() {
             <span>Hire me</span>
             <HiArrowUpRight />
           </li>
+          <li>
+            <img src="logo.svg" alt="" />
+          </li>
         </ul>
       </div>
     </div>
