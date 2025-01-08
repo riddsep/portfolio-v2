@@ -1,7 +1,7 @@
 function Logo() {
   return (
     <div>
-      <img src="Logo.svg" alt="" />
+      <img src="Logo.svg" alt="logo ipsum" />
     </div>
   );
 }
