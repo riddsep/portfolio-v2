@@ -14,7 +14,7 @@ function Navbar() {
           />
         </button>
         <ul
-          className={`${isOpen ? "-translate-x-0" : "-translate-x-full"} absolute right-0 -mr-5 flex h-[calc(100vh-61.4px)] w-screen flex-col items-center gap-5 bg-black/85 py-5 backdrop:blur-xl`}
+          className={`${isOpen ? "-translate-x-0" : "-translate-x-full"} absolute right-0 z-30 -mr-5 flex h-[calc(100vh-61.4px)] w-screen flex-col items-center gap-5 bg-black/85 py-5 backdrop:blur-xl`}
         >
           <li className="nav-item">Home</li>
           <li className="nav-item">About</li>
