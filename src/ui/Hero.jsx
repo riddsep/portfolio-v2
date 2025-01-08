@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 
 function Hero() {
   return (
-    <div className="relative left-0 h-dvh w-full bg-gradient text-center text-white before:absolute before:-left-4 before:top-32 before:z-10 before:w-full before:scale-125 before:content-[url('/line-1.svg')]">
+    <div className="relative left-0 h-dvh w-full overflow-hidden bg-gradient text-center text-white">
       <Navbar />
       <div className="relative z-20 flex h-[calc(100vh_-_81.4px)] w-full flex-col justify-center px-5">
         <h1 className="mb-4 text-4xl font-bold">
