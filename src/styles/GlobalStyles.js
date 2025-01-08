@@ -5,10 +5,14 @@ const GlobalStyles = createGlobalStyle`
 *, *::before, *::after {
   box-sizing: border-box;
 }
+::-webkit-scrollbar {
+    display: none; 
+  }
 
 * {
   margin: 0;
-  padding: 0
+  padding: 0;
+  transition: all 0.3s ease-in-out;
 }
 
 body {
