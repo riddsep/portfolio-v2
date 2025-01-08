@@ -4,8 +4,8 @@ import { HiArrowUpRight, HiMiniBars4 } from "react-icons/hi2";
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="relative flex justify-between overflow-hidden p-5 font-inter text-white">
-      <img src="/logo.svg" alt="logoipsum" className="w-20" />
+    <div className="relative flex justify-between p-5 font-inter text-white">
+      <img src="logo.svg" alt="logoipsum" className="w-20" />
       <div className="relative">
         <button>
           <HiMiniBars4
@@ -14,7 +14,7 @@ function Navbar() {
           />
         </button>
         <ul
-          className={`${isOpen ? "translate-x-0" : "translate-x-full"} absolute right-0 -mr-5 flex h-[calc(100vh-61.4px)] w-screen flex-col items-center gap-5 bg-black/85 py-5 backdrop:blur-xl`}
+          className={`${isOpen ? "-translate-x-0" : "-translate-x-full"} absolute right-0 -mr-5 flex h-[calc(100vh-61.4px)] w-screen flex-col items-center gap-5 bg-black/85 py-5 backdrop:blur-xl`}
         >
           <li className="nav-item">Home</li>
           <li className="nav-item">About</li>
