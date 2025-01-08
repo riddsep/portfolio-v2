@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 
 function Hero() {
   return (
-    <div className="relative left-0 h-dvh w-full overflow-hidden bg-gradient text-center text-white">
+    <div className="h-dvh w-full overflow-hidden bg-gradient bg-cover bg-no-repeat text-center text-white">
       <Navbar />
       <div className="relative z-20 flex h-[calc(100vh_-_81.4px)] w-full flex-col justify-center px-5">
         <h1 className="mb-4 text-4xl font-bold">
