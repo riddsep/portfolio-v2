@@ -17,7 +17,7 @@ function Hero() {
         </h1>
         <p className="mb-5 w-3/4 text-xl font-semibold sm:w-[480px] sm:text-2xl md:mb-10 md:w-full md:text-7xl">
           creating exceptional web experiences and inspiring tech{" "}
-          <span className="underline decoration-green-800 decoration-wavy underline-offset-4">
+          <span className="decoration-green-800 decoration-wavy underline-offset-4 lg:underline">
             growth.
           </span>
         </p>
