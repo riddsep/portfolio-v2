@@ -21,7 +21,7 @@ function Navbar() {
           <li className="nav-item">About</li>
           <li className="nav-item">Skills</li>
           <li className="nav-item">Projects</li>
-          <li className="flex cursor-pointer items-center gap-2 rounded-3xl border border-white px-5 py-1 hover:bg-white hover:text-black">
+          <li className="flex cursor-pointer items-center gap-2 rounded-3xl border border-white px-5 py-1 hover:bg-white hover:text-[#082832]">
             <span>Hire me</span>
             <HiArrowUpRight />
           </li>
