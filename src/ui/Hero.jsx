@@ -13,7 +13,7 @@ function Hero() {
           </span>{" "}
           front-end developer
         </h1>
-        <p className="mb-5 text-xl font-semibold">
+        <p className="mb-5 w-3/4 text-xl font-semibold">
           Creating exceptional web experiences and inspiring tech growth.
         </p>
         <p className="w-3/4 text-lg">
