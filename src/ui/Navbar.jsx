@@ -18,9 +18,9 @@ function Navbar() {
           className={`${isOpen ? "-translate-x-0" : "-translate-x-full"} absolute right-0 top-0 z-30 flex h-dvh w-screen flex-col items-center gap-5 bg-white/65 pt-28 backdrop-blur-md backdrop:blur-xl md:static md:h-auto md:w-auto md:translate-x-0 md:flex-row md:bg-transparent md:pt-0 md:backdrop-blur-none md:backdrop:blur-none`}
         >
           <li className="nav-item">Home</li>
-          <li className="nav-item">About</li>
-          <li className="nav-item">Skills</li>
           <li className="nav-item">Projects</li>
+          <li className="nav-item">Contact</li>
+          <li className="nav-item">Skills</li>
           <li className="flex cursor-pointer items-center gap-2 rounded-3xl border-2 border-white px-5 py-1 hover:bg-white hover:text-[#082832]">
             <span>Hire me</span>
             <HiArrowUpRight />
