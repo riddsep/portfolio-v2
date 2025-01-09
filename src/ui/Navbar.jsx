@@ -15,7 +15,7 @@ function Navbar() {
           {isOpen ? <HiX size={35} /> : <HiMiniBars4 size={35} />}
         </button>
         <ul
-          className={`${isOpen ? "-translate-x-0" : "-translate-x-full"} absolute right-0 top-0 z-30 flex h-[calc(100dvh_-_7rem)] w-screen flex-col items-center gap-5 bg-white/65 pt-28 backdrop-blur-md backdrop:blur-xl`}
+          className={`${isOpen ? "-translate-x-0" : "-translate-x-full"} absolute right-0 top-0 z-30 flex h-dvh w-screen flex-col items-center gap-5 bg-white/65 pt-28 backdrop-blur-md backdrop:blur-xl`}
         >
           <li className="nav-item">Home</li>
           <li className="nav-item">About</li>
