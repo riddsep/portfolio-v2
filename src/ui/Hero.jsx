@@ -6,7 +6,7 @@ function Hero() {
       <Navbar />
       <div className="relative z-20 w-full px-5">
         <h2 className="mb-5 text-3xl font-bold">rido septiawan.</h2>
-        <h1 className="mb-5 text-5xl font-bold">
+        <h1 className="mb-5 text-6xl font-bold">
           a{" "}
           <span className="relative before:absolute before:-bottom-1 before:left-0 before:h-2 before:w-full before:-skew-y-1 before:bg-green-900">
             passionate
