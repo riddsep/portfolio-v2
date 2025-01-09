@@ -17,6 +17,6 @@
   }
 
   .nav-item {
-    @apply cursor-pointer hover:text-[#17CF97];
+    @apply cursor-pointer hover:text-[#082832];
   }
 }
