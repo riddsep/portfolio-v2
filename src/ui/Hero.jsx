@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 
 function Hero() {
   return (
-    <div className="h-dvh w-full bg-gradient bg-cover bg-no-repeat text-white">
+    <div className="relative h-dvh w-full bg-gradient bg-cover bg-no-repeat text-white">
       <Navbar />
       <div className="relative z-20 w-full px-5">
         <h2 className="mb-5 text-3xl font-bold">rido septiawan.</h2>
