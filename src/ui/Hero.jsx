@@ -2,9 +2,9 @@ import Navbar from "./Navbar";
 
 function Hero() {
   return (
-    <div className="min-h-dvh w-full bg-gradient1 text-white md:pt-5">
+    <div className="min-h-[663px] w-full bg-gradient1 bg-[center_top] text-white sm:min-h-[687px] md:pt-5">
       <Navbar />
-      <div className="z-20 w-full max-w-[500px] overflow-hidden px-5 sm:px-10 md:max-w-none lg:mx-auto lg:max-w-6xl lg:pt-10 xl:px-0">
+      <div className="z-20 w-full max-w-[500px] overflow-hidden px-5 sm:px-10 md:max-w-none md:py-28 lg:mx-auto lg:max-w-6xl lg:pt-10 xl:px-0">
         <h2 className="mb-5 text-3xl font-semibold sm:text-4xl md:text-5xl">
           rido septiawan.
         </h2>
