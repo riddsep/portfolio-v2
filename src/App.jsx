@@ -1,11 +1,11 @@
 import Hero from "./ui/Hero";
-import Projects from "./ui/Projects";
+import ProjectList from "./ui/ProjectList";
 
 function App() {
   return (
     <>
       <Hero />
-      <Projects />
+      <ProjectList />
     </>
   );
 }
