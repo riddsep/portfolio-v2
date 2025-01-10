@@ -5,7 +5,7 @@ import { HiArrowUpRight, HiMiniBars4 } from "react-icons/hi2";
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="mx-auto mb-6 flex items-center justify-between px-5 py-5 font-inter text-white sm:px-10 md:w-fit md:justify-center md:gap-5 md:rounded-full md:bg-[rgba(255,255,255,0.15)] md:px-10 md:py-2 md:backdrop-blur-3xl lg:max-w-6xl">
+    <div className="mx-auto flex items-center justify-between px-5 py-5 font-inter text-white sm:px-10 md:w-fit md:justify-center md:gap-5 md:rounded-full md:bg-[rgba(255,255,255,0.15)] md:py-2 md:backdrop-blur-3xl lg:max-w-6xl">
       <img src="/logo.svg" alt="logoipsum" className="w-12" />
       <div className="">
         <button

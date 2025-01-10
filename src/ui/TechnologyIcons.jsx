@@ -19,7 +19,7 @@ function TechnologyIcons() {
       {technologies.map((tech, index) => (
         <img
           key={index}
-          className="w-20 cursor-pointer grayscale hover:grayscale-0"
+          className="w-16 cursor-pointer grayscale md:w-20"
           src={tech.src}
           alt={tech.alt}
         />
