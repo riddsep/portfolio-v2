@@ -15,15 +15,16 @@ const technologies = [
 
 function TechnologyIcons() {
   return (
-    <div className="mx-auto px-5 pt-24 md:max-w-xl lg:max-w-5xl">
+    <div className="mx-auto px-5 pt-16 md:max-w-xl lg:max-w-5xl">
       <h1 className="mb-10 text-center text-2xl md:text-3xl">
         Technologies I Use
       </h1>
+
       <div className="flex flex-wrap justify-center gap-4 text-xl font-bold text-white">
         {technologies.map((tech, index) => (
           <img
             key={index}
-            className="w-16 cursor-pointer grayscale md:w-20"
+            className="w-16 grayscale md:w-20"
             src={tech.src}
             alt={tech.alt}
           />
