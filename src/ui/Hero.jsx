@@ -21,7 +21,7 @@ function Hero() {
             growth.
           </span>
         </p>
-        <p className="w-3/4 font-inter text-lg font-light sm:w-[480px] sm:text-xl md:text-3xl">
+        <p className="w-3/4 text-lg font-light sm:w-[480px] sm:text-xl md:text-3xl">
           <span className="font-semibold">1+ year experience </span>
           building responsive interfaces with React.js and Tailwind CSS.
         </p>
