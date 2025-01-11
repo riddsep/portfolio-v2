@@ -3,9 +3,9 @@ import TechnologyIcons from "./TechnologyIcons";
 
 function ProjectList() {
   return (
-    <div className="bg-dust pb-24 text-white">
+    <div className="bg-dust text-white">
       <TechnologyIcons />
-      <div className="mt-28 px-5 sm:px-10 lg:mx-auto lg:max-w-6xl xl:px-0">
+      <div className="px-5 pb-20 sm:px-10 lg:mx-auto lg:max-w-6xl xl:px-0">
         <h1 className="highlight mb-6 text-3xl font-bold sm:text-4xl md:text-5xl lg:mb-10 lg:text-6xl">
           <span className="relative"> Featured Case Studies</span>
         </h1>

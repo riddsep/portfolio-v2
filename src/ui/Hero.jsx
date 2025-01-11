@@ -2,10 +2,10 @@ import Navbar from "./Navbar";
 
 function Hero() {
   return (
-    <div className="bg-dust min-h-[663px] w-full text-white sm:min-h-[687px] md:pt-5">
+    <div className="bg-dust w-full text-white md:pt-10">
       <Navbar />
-      <div className="z-20 w-full max-w-[500px] overflow-hidden px-5 sm:px-10 md:max-w-none md:pb-28 lg:mx-auto lg:max-w-6xl lg:pt-10 xl:px-0">
-        <h2 className="my-5 text-3xl font-semibold sm:text-4xl md:mt-16 md:text-5xl">
+      <div className="z-20 w-full max-w-[500px] overflow-hidden px-5 py-10 sm:px-10 md:max-w-none md:py-32 lg:mx-auto lg:max-w-6xl lg:pt-10 xl:px-0">
+        <h2 className="mb-5 text-3xl font-semibold sm:text-4xl md:text-5xl">
           rido septiawan.
         </h2>
         <h1 className="mb-5 text-[58px] font-bold leading-none sm:text-7xl md:mb-0">
