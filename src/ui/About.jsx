@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div className="bg-confetti bg-[#082832] bg-cover">
+    <div className="bg-confetti bg-[#082832]">
       <div className="flex flex-col gap-5 px-5 text-white sm:px-10 md:flex-row lg:mx-auto lg:max-w-6xl xl:px-0">
         <div className="max-w-[600px]">
           <h1 className="highlight mb-6 text-3xl font-bold sm:text-4xl md:text-5xl lg:mb-10 lg:text-6xl">
