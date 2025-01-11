@@ -10,7 +10,7 @@ function ProjectList() {
           <span className="relative"> Featured Case Studies</span>
         </h1>
 
-        <p className="mb-20 w-full sm:text-xl md:max-w-[600px] md:text-xl lg:mb-40 lg:text-2xl">
+        <p className="mb-20 w-full sm:text-xl md:max-w-[600px] md:text-xl lg:mb-24 lg:text-2xl">
           Learn how I’ve applied design and development principles to solve
           problems and deliver solutions.
         </p>

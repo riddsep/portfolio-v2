@@ -19,8 +19,8 @@ function Navbar() {
         >
           <li className="nav-item">Home</li>
           <li className="nav-item">Projects</li>
+          <li className="nav-item">About</li>
           <li className="nav-item">Contact</li>
-          <li className="nav-item">Blog</li>
           <li className="flex cursor-pointer items-center gap-2 rounded-3xl border-2 border-white px-5 py-1 hover:bg-white hover:text-[#082832]">
             <span>Hire me</span>
             <HiArrowUpRight />
