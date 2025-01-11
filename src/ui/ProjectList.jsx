@@ -3,7 +3,7 @@ import TechnologyIcons from "./TechnologyIcons";
 
 function ProjectList() {
   return (
-    <div className="bg-[#082832] pb-24 text-white">
+    <div className="bg-confetti bg-[#082832] pb-24 text-white">
       <TechnologyIcons />
       <div className="mt-28 px-5 sm:px-10 lg:mx-auto lg:max-w-6xl xl:px-0">
         <h1 className="highlight mb-6 text-3xl font-bold sm:text-4xl md:text-5xl lg:mb-10 lg:text-6xl">

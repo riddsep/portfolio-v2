@@ -95,7 +95,6 @@ function ProjectItem() {
           <img
             src={project.image}
             className="ml-auto w-full max-w-[500px] pl-5 md:pl-0 md:pt-5"
-            loading="lazy"
             alt={project.name}
             width={500}
             height={500}

@@ -10,6 +10,7 @@ export default {
       backgroundImage: {
         gradient1:
           "linear-gradient(to bottom, transparent 70%, #082832 30%), url('/Grid.svg')",
+        confetti: "url('/confetti.svg')",
       },
     },
   },
