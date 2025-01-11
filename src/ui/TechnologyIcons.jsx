@@ -15,7 +15,7 @@ const technologies = [
 
 function TechnologyIcons() {
   return (
-    <div className="mx-auto px-5 pt-16 md:max-w-xl lg:max-w-5xl">
+    <div className="mx-auto px-5 py-16 md:max-w-xl md:pb-20 lg:max-w-5xl">
       <h1 className="mb-10 text-center text-2xl md:text-3xl">
         Technologies I Use
       </h1>
