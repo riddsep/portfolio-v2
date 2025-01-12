@@ -4,7 +4,7 @@ function Hero() {
   return (
     <div className="relative w-full bg-dust text-white after:absolute after:bottom-0 after:right-4 after:content-[url('/rocket.png')] md:pt-10">
       <Navbar />
-      <div className="z-20 w-full max-w-[500px] overflow-hidden px-5 py-14 sm:px-10 md:max-w-none md:py-32 lg:mx-auto lg:max-w-6xl lg:pt-10 xl:px-0">
+      <div className="z-20 w-full max-w-[500px] overflow-hidden px-5 py-16 sm:px-10 md:max-w-none md:py-32 lg:mx-auto lg:max-w-6xl lg:pt-10 xl:px-0">
         <h2 className="mb-5 text-3xl font-semibold sm:text-4xl md:text-5xl">
           rido septiawan.
         </h2>
