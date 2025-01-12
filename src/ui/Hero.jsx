@@ -2,9 +2,9 @@ import Navbar from "./Navbar";
 
 function Hero() {
   return (
-    <div className="relative w-full overflow-hidden bg-dust text-white md:pt-10">
+    <div className="relative w-full bg-dust text-white md:pt-10">
       <Navbar />
-      <div className="z-20 w-full max-w-[500px] overflow-hidden px-5 py-28 sm:px-10 md:max-w-none md:py-36 lg:mx-auto lg:max-w-6xl lg:py-24 xl:px-0">
+      <div className="relative z-20 w-full max-w-[500px] overflow-hidden px-5 py-28 sm:px-10 md:max-w-none md:py-36 lg:mx-auto lg:max-w-6xl lg:py-24 xl:px-0">
         <h2
           className="mb-5 text-3xl font-semibold sm:text-4xl md:text-5xl"
           data-aos="fade-down"
@@ -41,6 +41,13 @@ function Hero() {
           <span className="font-semibold">1+ year experience </span>
           building responsive interfaces with React.js and Tailwind CSS.
         </p>
+        <img
+          src="/arrow-3.svg"
+          alt=""
+          className="absolute hidden md:bottom-16 md:left-72 md:block md:max-w-72 lg:bottom-3 lg:left-[460px] lg:max-w-[400px]"
+          data-aos="fade-right"
+          data-aos-delay="800"
+        />
       </div>
     </div>
   );
