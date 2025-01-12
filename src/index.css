@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-  ::-webkit-scrollbar {
-    display: none;
-  }
-
   h1,
   h2,
   h3,
@@ -18,6 +14,7 @@
 
   * {
     @apply transition-all;
+    scrollbar-width: thin;
   }
 
   .nav-item {
