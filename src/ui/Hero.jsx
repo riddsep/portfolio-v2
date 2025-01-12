@@ -9,14 +9,14 @@ function Hero() {
         className="absolute bottom-0 right-0 md:w-[200px] lg:w-[250px]"
       />
       <Navbar />
-      <div className="z-20 w-full max-w-[500px] overflow-hidden px-5 py-16 sm:px-10 md:max-w-none md:py-28 lg:mx-auto lg:max-w-6xl lg:py-20 xl:px-0">
+      <div className="z-20 w-full max-w-[500px] overflow-hidden px-5 py-28 sm:px-10 md:max-w-none md:py-36 lg:mx-auto lg:max-w-6xl lg:py-24 xl:px-0">
         <h2 className="mb-5 text-3xl font-semibold sm:text-4xl md:text-5xl">
           rido septiawan.
         </h2>
         <h1 className="mb-5 text-[58px] font-bold leading-none sm:text-7xl md:mb-0">
           a{" "}
           <span className="highlight">
-            <span className="relative text-white">passionate</span>
+            <span className="relative text-white">excited</span>
           </span>{" "}
           frontend developer
         </h1>
