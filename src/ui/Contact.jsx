@@ -20,7 +20,7 @@ function Contact() {
             </li>
           </ul>
         </div>
-        <div className="flex flex-col items-center py-16 lg:py-36">
+        <div className="flex flex-col items-center py-16 lg:py-28">
           <h1 className="mb-4 text-center text-4xl md:text-6xl lg:text-8xl">
             Interested in working together?
           </h1>
