@@ -9,20 +9,32 @@ function Contact() {
             RIDO SEPTIAWAN
           </h1>
           <ul className="flex flex-col items-center gap-5 md:flex-row">
-            <li className="nav-item flex items-center gap-3">
+            <a
+              href="https://www.linkedin.com/in/ridoseptiawan"
+              className="nav-item flex items-center gap-3"
+              target="_blank"
+            >
               LINKEDIN <HiArrowUpRight />
-            </li>
-            <li className="nav-item flex items-center gap-3">
+            </a>
+            <a
+              href="https://github.com/riddsep"
+              className="nav-item flex items-center gap-3"
+              target="_blank"
+            >
               GITHUB <HiArrowUpRight />
-            </li>
-            <li className="nav-item flex items-center gap-3">
+            </a>
+            <a
+              href="https://www.tiktok.com/@spainwoss"
+              className="nav-item flex items-center gap-3"
+              target="_blank"
+            >
               TIKTOK <HiArrowUpRight />
-            </li>
+            </a>
           </ul>
         </div>
-        <div className="flex flex-col items-center py-16 lg:py-36">
+        <div className="flex flex-col items-center py-16 lg:py-16">
           <h1 className="mb-4 text-center text-4xl md:text-6xl lg:text-8xl">
-            Interested in working together?
+            <span className="highlight">Interested</span> in working together?
           </h1>
           <img src="/spiderman.png" alt="" className="lg:w-[300px]" />
         </div>
