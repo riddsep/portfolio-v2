@@ -6,7 +6,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div
-      className="fixed left-0 right-0 z-10 mx-auto flex items-center justify-end text-white sm:px-10 md:w-fit md:justify-center md:gap-5 md:rounded-full md:bg-[rgba(255,255,255,0.15)] md:py-2 md:backdrop-blur-3xl lg:max-w-6xl"
+      className="fixed left-0 right-0 z-30 mx-auto flex items-center justify-end text-white sm:px-10 md:w-fit md:justify-center md:gap-5 md:rounded-full md:bg-[rgba(255,255,255,0.15)] md:py-2 md:backdrop-blur-3xl lg:max-w-6xl"
       data-aos="fade-down"
       data-aos-delay="50"
     >

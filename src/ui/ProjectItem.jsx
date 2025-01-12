@@ -64,7 +64,7 @@ function ProjectItem() {
       {projects.map((project) => (
         <div
           key={project.id}
-          className="mx-auto flex flex-col rounded-2xl border border-[rgba(255,255,255,0.2)] bg-[rgba(255,255,255,0.15)] shadow-2xl backdrop-blur-xl md:flex-row lg:max-w-[900px]"
+          className="mx-auto flex flex-col overflow-hidden rounded-2xl border border-[rgba(255,255,255,0.2)] bg-[rgba(255,255,255,0.15)] shadow-2xl backdrop-blur-xl md:flex-row lg:max-w-[900px]"
           data-aos="fade-right"
           data-aos-delay="200"
         >
