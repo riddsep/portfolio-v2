@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div className="bg-dust">
+    <div className="overflow-hidden bg-dust">
       <div className="flex flex-col gap-5 px-5 py-10 text-white sm:px-10 md:flex-row md:py-16 lg:mx-auto lg:max-w-6xl xl:px-0">
         <div className="max-w-[300px] lg:max-w-[600px]">
           <h1
