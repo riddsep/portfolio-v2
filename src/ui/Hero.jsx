@@ -42,13 +42,6 @@ function Hero() {
           building responsive interfaces with React.js and Tailwind CSS.
         </p>
       </div>
-      <img
-        src="/spiderman-2.png"
-        alt=""
-        className="absolute bottom-0 right-0 md:w-[200px] lg:w-[250px]"
-        data-aos="fade-left"
-        data-aos-delay="1000"
-      />
     </div>
   );
 }
