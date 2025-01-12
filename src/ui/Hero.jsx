@@ -2,7 +2,12 @@ import Navbar from "./Navbar";
 
 function Hero() {
   return (
-    <div className="relative w-full bg-dust text-white after:absolute after:bottom-0 after:right-4 after:content-[url('/rocket.png')] md:pt-10 md:after:right-10 lg:after:content-[url('/rocket-2.png')]">
+    <div className="relative w-full bg-dust text-white md:pt-10 md:after:right-10">
+      <img
+        src="/spiderman-2.png"
+        alt=""
+        className="absolute bottom-0 right-0 md:w-[200px] lg:w-[250px]"
+      />
       <Navbar />
       <div className="z-20 w-full max-w-[500px] overflow-hidden px-5 py-16 sm:px-10 md:max-w-none md:py-28 lg:mx-auto lg:max-w-6xl lg:py-20 xl:px-0">
         <h2 className="mb-5 text-3xl font-semibold sm:text-4xl md:text-5xl">
