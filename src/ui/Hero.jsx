@@ -46,7 +46,7 @@ function Hero() {
           alt=""
           className="absolute hidden md:bottom-16 md:left-72 md:block md:max-w-72 lg:bottom-3 lg:left-[460px] lg:max-w-[400px]"
           data-aos="fade-right"
-          data-aos-delay="800"
+          data-aos-delay="200"
         />
       </div>
     </div>
