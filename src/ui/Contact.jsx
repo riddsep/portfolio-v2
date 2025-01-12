@@ -5,7 +5,7 @@ function Contact() {
     <div className="bg-dust px-5 py-10">
       <div
         className="rounded-2xl border px-5 py-10 text-white shadow-2xl backdrop-blur-sm sm:px-10 lg:mx-auto lg:max-w-6xl"
-        data-aos="fade-up"
+        data-aos="fade-down"
         data-aos-delay="200"
       >
         <div className="flex items-center justify-between">
