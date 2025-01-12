@@ -40,14 +40,6 @@ function Contact() {
           <h1 className="mb-4 text-center text-4xl md:text-6xl lg:text-8xl">
             <span className="highlight">Interested</span> in working together?
           </h1>
-          <img
-            src="/spiderman.png"
-            alt=""
-            className="lg:w-[300px]"
-            height={300}
-            data-aos="fade-up"
-            data-aos-delay="200"
-          />
         </div>
         <div>
           <p>©2024 – All Rights Reserved</p>
