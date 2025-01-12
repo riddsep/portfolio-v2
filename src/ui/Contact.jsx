@@ -9,15 +9,24 @@ function Contact() {
             RIDO SEPTIAWAN
           </h1>
           <ul className="flex flex-col items-center gap-5 md:flex-row">
-            <li className="nav-item flex items-center gap-3">
+            <a
+              href="https://www.linkedin.com/in/ridoseptiawan"
+              className="nav-item flex items-center gap-3"
+            >
               LINKEDIN <HiArrowUpRight />
-            </li>
-            <li className="nav-item flex items-center gap-3">
+            </a>
+            <a
+              href="https://github.com/riddsep"
+              className="nav-item flex items-center gap-3"
+            >
               GITHUB <HiArrowUpRight />
-            </li>
-            <li className="nav-item flex items-center gap-3">
+            </a>
+            <a
+              href="https://www.tiktok.com/@spainwoss"
+              className="nav-item flex items-center gap-3"
+            >
               TIKTOK <HiArrowUpRight />
-            </li>
+            </a>
           </ul>
         </div>
         <div className="flex flex-col items-center py-16 lg:py-28">
